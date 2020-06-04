@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <!-- Fonts -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="background">
+    <div class="row top-section">
+      <div class="col-3">
+
+      </div>
+      <div class="col-6 header">
+        <div class="row">
+          <div class="col-8 banner">
+            <img src="logo.svg" alt="logo">
+          </div>
+          <div class="col-1">
+
+          </div>
+          <div class="col-3 score-box">
+            <p class="score-title">SCORE</p>
+            <p id='score' class="score">0</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+
+      </div>
+    </div>
+
+    <div class="row buttons">
+      <div class="col-6" id="paper">
+        <img class="paper btn" src="icon-paper.png" alt="paper">
+      </div>
+      <div class="col-6">
+        <img class="scissors btn" src="icon-scissors.png" alt="scissors">
+      </div>
+      <div class="col-12">
+        <img class="rock btn" src="icon-rock.png" alt="rock">
+      </div>
+
+
+    </div>
+
+    <div class="result">
+      <div class="row result-row">
+        <div class="col-4 result-left">
+          <p class="youpicked">YOU PICKED</p>
+          <img class="paper ppick" src="icon-paper.png" alt="paper">
+          <img class="rock ppick" src="icon-rock.png" alt="rock">
+          <img class="scissors ppick" src="icon-scissors.png" alt="scissors">
+        </div>
+        <div class="col-4 result-center">
+          <p class="youwin">You Win!</p>
+          <p class="youlose">You Lose!</p>
+          <p class="tie">Tie!</p>
+          <p class="btn btn-light playagain">PLAY AGAIN</p>
+        </div>
+        <div class="col-4 result-right">
+          <p class="housepicked">THE HOUSE PICKED</p>
+          &emsp;<img class="paper hpick" src="icon-paper.png" alt="paper">
+          &emsp;<img class="rock hpick" src="icon-rock.png" alt="rock">
+          &emsp;<img class="scissors hpick" src="icon-scissors.png" alt="scissors">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <span class="btn btn-outline-light rulesbutton">RULES</span>
+      </div>
+    </div>
+
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.github.com/dtopping99">Danny Topping</a>.
+    </div>
+
+
+  </div>
+  <div class="popup">
+    <span class="rules-title">RULES</span>
+    <span class="close btn">X</span>
+    <p><img src="image-rules.png" alt="Rules"></p>
+  </div>
+
+  <!-- Javascript -->
+  <script src="script.js"></script>
+</body>
+
+</html>

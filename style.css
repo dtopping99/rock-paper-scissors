@@ -1,0 +1,154 @@
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: #fff;
+  background-image: linear-gradient(to bottom right, #1f3756, #141539);
+  background-repeat: no-repeat;
+}
+.top-section {
+  margin: 16px 0 16px 0;
+}
+.header {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #606e85;
+  border-radius: 10px;
+}
+.banner {
+  padding: 18px 15px 15px 15px;
+  text-align: left;
+  font-size: 30px;
+  line-height: 1.6rem;
+}
+.score-box {
+  padding: 15px;
+  color: #2a46c0;
+  text-align: center;
+  background-color: #fff;
+  background-clip: content-box;
+  border-radius: 20px;
+  line-height: 1.5rem;
+}
+.score-title {
+  margin-bottom: 0;
+  padding-top: 7px;
+  font-size: 13px;
+}
+.score {
+  font-size: 56px;
+  font-weight: 700;
+  color: #3b4363;
+  padding-top: 16px;
+}
+.buttons {
+  background-image: url('bg-triangle.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150px;
+  height: 300px;
+}
+.rock {
+  border: solid;
+  border-width: 12px;
+  border-color: #dc2e4e;
+  border-radius: 50%;
+  background-color: #e2e2e2;
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.paper, .scissors {
+  border: solid;
+  border-width: 12px;
+  border-radius: 50%;
+}
+#paper {
+  text-align: right;
+}
+.paper {
+  padding: 20px;
+  background-color: #dfdee0;
+  border-color: #4865f4;
+}
+.scissors {
+  padding: 17px;
+  background-color: #e0e1e1;
+  border-color: #ec9e0e;
+}
+.rulesbutton {
+  padding: 5px 30px;
+  border-radius: 8px;
+  margin-left: 85%;
+}
+.popup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding: 20px;
+  border: solid;
+  border-radius: 10px;
+  left: 0;
+  top: 0;
+  margin-left: 30%;
+  margin-top: 10%;
+  background-color: #fff;
+
+}
+.rules-title, .close {
+  color: #000;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.rules-title {
+  font-size: 26px;
+}
+.close {
+  font-size: 36px;
+}
+.result {
+  display: none;
+}
+.result-row {
+  margin: 70px 0;
+}
+.youpicked, .housepicked {
+  font-size: 27px;
+}
+.playagain {
+  width: 150px;
+}
+.playagain:hover {
+  color: #f50a0a;
+}
+.result-left {
+  text-align: right;
+}
+.result-center {
+  text-align: center;
+}
+.rock.hpick {
+  margin: 0;
+  display: inline;
+}
+.rock.ppick {
+  margin-right: 0;
+}
+.youwin, .youlose, .tie {
+  display: none;
+  font-size: 36px;
+}
+.youwin {
+  color: #32a852;
+}
+.youlose {
+  color: #f50a0a;
+}
+.tie {
+  color: #001aff;
+}
+.result-right {
+  text-align: left;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: #3e52a3; }
